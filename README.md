@@ -2,8 +2,10 @@
 
 A tactile television portfolio. Nine named channels lead into project case studies.
 
-- [Open this portfolio](https://joe-hireable.github.io/greg-hannan-signal-house/)
-- [Compare all three concepts](https://joe-hireable.github.io/greg-hannan-signal-house/concepts/)
+- [Preview before ownership handover](https://joe-hireable.github.io/greg-hannan-signal-house/)
+- [Expected preview after Greg accepts](https://gregorymark.github.io/greg-hannan-signal-house/)
+- [Comparison hub before handover](https://joe-hireable.github.io/greg-hannan-signal-house/concepts/)
+- [Expected comparison hub under Greg’s account](https://gregorymark.github.io/greg-hannan-signal-house/concepts/)
 - [Figma design boards](https://www.figma.com/design/pVYdGife89N11xGKTnV9Zq)
 
 ## Design
@@ -33,18 +35,20 @@ GitHub Pages serves `main` from the repository root. Keep `.nojekyll` in place s
 
 [GitHub Pages is available for public repositories on GitHub Free](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages). This repository has no server, secret, paid service integration or domain purchase.
 
-## Transfer this repository to Greg
+## Ownership handover to Greg
 
-The current owner can transfer the repository through **Settings → General → Danger Zone → Transfer** when Greg is ready. Enter Greg’s GitHub username, `gregorymark`, confirm the repository name and complete GitHub’s confirmation flow. Greg must accept the transfer invitation; GitHub says personal-account transfer invitations expire after one day. The receiving account must not already have a repository with the same name.
+Joe has requested that Greg own this repository. It is prepared for transfer to the verified GitHub account [gregorymark](https://github.com/gregorymark). A personal-account transfer requires Greg to accept GitHub’s transfer invitation; preparation or an accepted API request does not itself mean ownership has changed. GitHub says the invitation expires after one day. The owner displayed at the top of the repository is authoritative.
 
-After transfer:
+The website’s Concepts links and comparison cards use root-relative paths, so they follow the account serving the sites. Once all three repositories are under Greg’s account, the navigation automatically uses `gregorymark.github.io`. During a partial handover, cross-concept navigation may be incomplete until all three are accepted and their Pages deployments are available.
 
-1. Greg should check **Settings → Pages** and wait for the first successful deployment.
-2. The default site URL will use the new owner, typically `https://gregorymark.github.io/greg-hannan-signal-house/`. Update the concept hub, Concepts links and README URLs across all three repositories from the old owner to the new owner.
+After acceptance:
+
+1. Check **Settings → Pages** and the first successful deployment under Greg’s account. The expected URL is `https://gregorymark.github.io/greg-hannan-signal-house/`.
+2. Update the repository’s **About → Website** field to that URL and use the new links when sharing the site. GitHub Pages does not redirect the old owner’s site URLs.
 3. Update local clones with `git remote set-url origin https://github.com/gregorymark/greg-hannan-signal-house.git`.
 4. Review repository access. GitHub normally retains the original owner as a collaborator after a personal-account transfer.
 
-Repository links redirect after transfer, but **GitHub Pages URLs do not**. No ownership transfer has been initiated. [Official transfer documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository).
+Repository links redirect after transfer; GitHub Pages URLs do not. The receiving account must not already have a repository with the same name. [Official transfer documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository).
 
 ## Content and asset rights
 

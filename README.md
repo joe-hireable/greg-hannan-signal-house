@@ -6,6 +6,7 @@ A tactile television portfolio. Nine named channels lead into project case studi
 - [Expected preview after Greg accepts](https://gregorymark.github.io/greg-hannan-signal-house/)
 - [Comparison hub before handover](https://joe-hireable.github.io/greg-hannan-signal-house/concepts/)
 - [Expected comparison hub under Greg’s account](https://gregorymark.github.io/greg-hannan-signal-house/concepts/)
+- [Download Greg’s CV (Word)](assets/Greg_Hannan_CV.docx)
 - [Figma design boards](https://www.figma.com/design/pVYdGife89N11xGKTnV9Zq)
 
 ## Design
@@ -21,7 +22,7 @@ The complete site is in `index.html`: HTML for the page, CSS in the `<style>` bl
 1. Open `index.html` in the GitHub file editor, or clone the repository and edit locally.
 2. Update the project records in the `projects` array (or `project-data` JSON block): name, date, stack, URL, category, summary and contribution bullets. Keep summaries specific to Greg’s actual contribution.
 3. Replace images in `assets/`, retaining their filenames, or update the project slug and image reference together. Images are JPEGs.
-4. Update the introduction, contact links and CV link in the HTML. The CV currently links to the supplied public PDF; replace the link when the CV changes.
+4. Update the introduction, contact links and CV link in the HTML. The downloadable Word CV is `assets/Greg_Hannan_CV.docx`; To update it, edit the Word document, save it as `Greg_Hannan_CV.docx`, then replace the existing file in `assets/` and commit to `main`. Keep the filename unchanged so the download links continue to work. Replace it in each concept repository you keep active.
 5. Change the CSS variables near the top of the file to adjust the palette. Fonts use Google Fonts with local fallback families.
 6. Commit to `main`. GitHub Pages publishes the updated files automatically.
 
